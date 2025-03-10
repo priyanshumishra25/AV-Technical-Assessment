@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/Question-2-out.dir/Question-2/Question-2.cc.o -o Question-2-out  -lpthread 

@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/Question-4-out.dir/Question-4/Question-4.cc.o -o Question-4-out  lib/libgtest.a lib/libgmock.a lib/libgtest_main.a -lpthread lib/libgtest.a 

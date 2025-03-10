@@ -1,0 +1,91 @@
+Start testing: Mar 03 17:56 AEDT
+----------------------------------------------------------
+1/4 Testing: question-1
+1/4 Test: question-1
+Command: "/home/priyanshu/Redback/AV-Technical-Assessment/build/Question-1-out"
+Directory: /home/priyanshu/Redback/AV-Technical-Assessment/build
+"question-1" start time: Mar 03 17:56 AEDT
+Output:
+----------------------------------------------------------
+x: -10, y: 15
+ratio: -1
+ratio: -1
+ratio: -1
+ratio: -1
+ratio: -1
+ratio: -2
+ratio: -2
+ratio: -2
+ratio: -3
+ratio: -6
+ratio: 0
+ratio: 4
+ratio: 1
+j is 1 and i is not 3
+0x7ffef3701898 : 0x7ffef3701880 : 1
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"question-1" end time: Mar 03 17:56 AEDT
+"question-1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/4 Testing: question-2
+2/4 Test: question-2
+Command: "/home/priyanshu/Redback/AV-Technical-Assessment/build/Question-2-out"
+Directory: /home/priyanshu/Redback/AV-Technical-Assessment/build
+"question-2" start time: Mar 03 17:56 AEDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.52 sec
+----------------------------------------------------------
+Test Passed.
+"question-2" end time: Mar 03 17:56 AEDT
+"question-2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/4 Testing: question-3
+3/4 Test: question-3
+Command: "/home/priyanshu/Redback/AV-Technical-Assessment/build/Question-3-out"
+Directory: /home/priyanshu/Redback/AV-Technical-Assessment/build
+"question-3" start time: Mar 03 17:56 AEDT
+Output:
+----------------------------------------------------------
+Decoded data has been written to output.txt.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"question-3" end time: Mar 03 17:56 AEDT
+"question-3" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/4 Testing: question-4
+4/4 Test: question-4
+Command: "/home/priyanshu/Redback/AV-Technical-Assessment/build/Question-4-out"
+Directory: /home/priyanshu/Redback/AV-Technical-Assessment/build
+"question-4" start time: Mar 03 17:56 AEDT
+Output:
+----------------------------------------------------------
+Running main() from /home/priyanshu/Redback/AV-Technical-Assessment/build/_deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ActorTest
+[ RUN      ] ActorTest.ObserversAreCalled
+[       OK ] ActorTest.ObserversAreCalled (1 ms)
+[----------] 1 test from ActorTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"question-4" end time: Mar 03 17:56 AEDT
+"question-4" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Mar 03 17:56 AEDT
