@@ -23,6 +23,8 @@ class Actor;
 class Observer {
 public:
 	virtual void ReactToEvent(Actor* actor) = 0;
+	// Ensure proper cleanup of derived objects
+	virtual ~Observer() = default;
 };
 
 class Actor {
@@ -48,6 +50,17 @@ public:
 		}
 	}
 
+};
+
+/**
+ * Mock implementation of Observer using Google Mock
+ * 
+ * This class allows us to verify whether `ReactToEvent` is being called correctly.
+ * The `MOCK_METHOD` macro replaces the need for manually implementing the method.
+ */class MockObserver : public Observer {
+public:
+	// Use the MOCK_METHOD macro to mock the ReactToEvent method
+	MOCK_METHOD(void, ReactToEvent, (Actor* actor), (override));
 };
 
 // This will not compile until you implement MockObserver.
